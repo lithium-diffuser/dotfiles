@@ -66,6 +66,14 @@ alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset
 
 alias gac="git add -A && git commit -m"
 alias gpc="git push origin HEAD"
+
+
+gsa ()
+{
+	git reset $(git commit-tree HEAD^{tree} -m \"${1:-A new start}\");
+}
+
+
 #-----------------------------------------------------------------------------------#
 #	*END* GIT
 #-----------------------------------------------------------------------------------#
