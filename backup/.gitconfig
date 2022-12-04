@@ -45,11 +45,17 @@
 	enabled = true
 	s = "status -s"
 [core]
-	autocrlf = input
+  repositoryformatversion = 0
+  filemode = true
+  bare = false
+  logallrefupdates = true
+  ignorecase = true
+  precomposeunicode = true
+  autocrlf = input
 	editor = vim
 [credential]
 	helper = cache
-	helper = 
+	helper =
 	helper = /usr/local/share/gcm-core/git-credential-manager
 [merge]
     tool = vimdiff
