@@ -17,6 +17,7 @@ brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'zsh'
 brew 'zsh-completions'
 brew 'neovim'
+brew 'python'
 brew 'vim'
 brew 'wget'
 brew 'node'

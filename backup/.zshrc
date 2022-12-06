@@ -45,6 +45,7 @@ plugins=(
 )
 
 # User configuration
+test -r "~/.dotfiles/.dir_colors" && eval $(dircolors ~/.dotfiles/.dir_colors)
 
 # PATH
 export PATH="/usr/local/bin:$PATH"
@@ -73,4 +74,4 @@ export DEFAULT_USER="daniellemaier"
 export LANG="en_US.UTF-8"
 
 # Aliases
-source ~/.dotfiles/.aliases
+source ~/.dotfiles/aliases.zsh
