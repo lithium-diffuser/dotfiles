@@ -18,7 +18,7 @@ local magenta_bold=$fg_bold[magenta]
 local cyan_bold=$fg_bold[cyan]
 local white_bold=$fg_bold[white]
 
-local flake="❄︎"
+local flake="❄︎ "
 local pchar="ƒ☾☽"
 
 # Format for git_prompt_info()

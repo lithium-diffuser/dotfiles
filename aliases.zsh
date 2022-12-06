@@ -27,9 +27,9 @@ else
 fi
 
 # Shortcuts
-# alias vimrc="$EDITOR ~/.dotfiles/.vimrc"
-# alias zshrc="$EDITOR ~/.dotfiles/.zshrc"
-# alias alias="$EDITOR ~/.dotfiles/.aliases"
+alias vimrc="$EDITOR ~/.dotfiles/.vimrc"
+alias zshrc="$EDITOR ~/.dotfiles/.zshrc"
+alias ali="$EDITOR ~/.dotfiles/.aliases"
 alias doot="cd ~/.dotfiles"
 alias ..="cd .."
 alias cd..="cd .."
