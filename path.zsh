@@ -23,3 +23,5 @@ export PATH="$DOTFILES/plugins/pure:$PATH"
 
 export LDFLAGS="-L/usr/local/opt/libffi/lib"
 export PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig"
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+

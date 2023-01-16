@@ -55,7 +55,7 @@
 	editor = vim
 [credential]
 	helper = cache
-	helper =
+	helper = 
 	helper = /usr/local/share/gcm-core/git-credential-manager
 [merge]
     tool = vimdiff

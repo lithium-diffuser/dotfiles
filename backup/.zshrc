@@ -15,7 +15,18 @@ ZSH_THEME="frosty"
 
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
-# DISABLE_AUTO_TITLE="true"
+#export PATH="/usr/local/bin:$PATH"
+#export PATH="/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/java/jdk1.8.0_74/bin:$PATH"
+#export PATH="/usr/local/heroku/bin:$PATH"
+#export SSH_KEY_PATH="~/.ssh/rsa_id"
+#export GEM_HOME="$HOME/.gems"
+#export PATH="$PATH:$HOME/.rvm/bin"
+#export PATH="/usr/local/opt/sqlite/bin:$PATH"
+#export GOPATH="$HOME/workspace/go"
+#export GOROOT="/usr/local/opt/go/libexec"
+#export PATH=$PATH:$GOPATH/bin
+#export PATH=$PATH:$GOROOT/bin# 
+DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 COMPLETION_WAITING_DOTS="true"
