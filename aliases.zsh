@@ -27,9 +27,6 @@ else
 fi
 
 # Shortcuts
-alias vimrc="$EDITOR ~/.dotfiles/.vimrc"
-alias zshrc="$EDITOR ~/.dotfiles/.zshrc"
-alias ali="$EDITOR ~/.dotfiles/.aliases"
 alias doot="cd ~/.dotfiles"
 alias ..="cd .."
 alias cd..="cd .."
@@ -41,7 +38,7 @@ alias vi="vim"
 alias vim="vim"
 alias tmux='tmux -u'
 alias pico='rnano'
-alias nano='rnano'
+alias nano='/usr/local/bin/rnano'
 alias a="atom ."
 alias python="python3"
 alias mv="mv -i"
@@ -51,10 +48,12 @@ alias la="ls -la ${colorflag}"
 alias l="ls -laF"
 alias cleanup="find . -name '*.DS_Store' -type f -ls -delete"
 
+# Git
 alias gph="git push heroku master"
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias gac="git add -A && git commit -m"
 alias gpc="git push origin HEAD"
 
+# Desktop tweaks
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
 alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"

@@ -35,7 +35,6 @@ plugins=(
 	git
 	git-extras
 	git-flow
-	golang
 	npm
 	macos
 	rsync
@@ -67,23 +66,23 @@ bindkey -v
 bindkey -M viins 'jj' vi-cmd-mode
 bindkey '^R' history-incremental-search-backward
 setopt extendedglob nocaseglob globdots
-export VISUAL=vim
-export EDITOR="$VISUAL"
+export EDITOR=rnano
+export VISUAL="$EDITOR"
 export DEFAULT_USER="daniellemaier"
 export LANG="en_US.UTF-8"
 
 # nnn config
-BLK="0B" 
-CHR="0B" 
-DIR="04" 
-EXE="06" 
-REG="00" 
-HARDLINK="06" 
-SYMLINK="06" 
-MISSING="00" 
-ORPHAN="09" 
-FIFO="06" 
-SOCK="0B" 
+BLK="0B"
+CHR="0B"
+DIR="04"
+EXE="06"
+REG="00"
+HARDLINK="06"
+SYMLINK="06"
+MISSING="00"
+ORPHAN="09"
+FIFO="06"
+SOCK="0B"
 OTHER="06"
 export NNN_FCOLORS="$BLK$CHR$DIR$EXE$REG$HARDLINK$SYMLINK$MISSING$ORPHAN$FIFO$SOCK$OTHER"
 
