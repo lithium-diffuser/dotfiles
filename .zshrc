@@ -57,6 +57,10 @@ export GOPATH="$HOME/workspace/go"
 export GOROOT="/usr/local/opt/go/libexec"
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
+export DEFAULT_USER="daniellemaier"
+export LANG="en_US.UTF-8"
+export EDITOR=/usr/local/bin/rnano
+export VISUAL="$EDITOR"
 
 # Oh-My-ZSH
 source $ZSH/oh-my-zsh.sh
@@ -66,10 +70,6 @@ bindkey -v
 bindkey -M viins 'jj' vi-cmd-mode
 bindkey '^R' history-incremental-search-backward
 setopt extendedglob nocaseglob globdots
-export EDITOR=rnano
-export VISUAL="$EDITOR"
-export DEFAULT_USER="daniellemaier"
-export LANG="en_US.UTF-8"
 
 # nnn config
 BLK="0B"
@@ -87,4 +87,4 @@ OTHER="06"
 export NNN_FCOLORS="$BLK$CHR$DIR$EXE$REG$HARDLINK$SYMLINK$MISSING$ORPHAN$FIFO$SOCK$OTHER"
 
 # Aliases
-source ~/.dotfiles/.aliases
+source ~/.dotfiles/.aliases.zsh

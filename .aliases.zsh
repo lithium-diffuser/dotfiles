@@ -32,13 +32,17 @@ alias ..="cd .."
 alias cd..="cd .."
 alias ...="cd ../.."
 alias home="cd ~/"
+alias zshrc="rnano ~/.dotfiles/.zshrc"
+alias vimrc="rnano ~/.dotfiles/.vimrc"
+alias ali="rnano ~/.dotfiles/.aliases.zsh"
 
 # Overwrites
 alias vi="vim"
 alias vim="vim"
 alias tmux='tmux -u'
-alias pico='rnano'
+alias pico='/usr/local/bin/rnano'
 alias nano='/usr/local/bin/rnano'
+alias nan='/usr/local/bin/rnano'
 alias a="atom ."
 alias python="python3"
 alias mv="mv -i"
