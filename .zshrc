@@ -3,9 +3,10 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_CUSTOM=$HOME/.dotfiles/.oh-my-zsh/custom
 
 # Set oh-my-zsh to auto update
-DISABLE_UPDATE_PROMPT=true
+# DISABLE_UPDATE_PROMPT=true
 # Uncomment to disable automatic upgrades
 # DISABLE_AUTO_UPDATE=true
+zstyle ':omz:update' mode auto
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
