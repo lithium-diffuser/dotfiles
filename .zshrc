@@ -34,17 +34,17 @@ plugins=(
 	brew
 	common-aliases
 	git
-	git-extras
-	git-flow
-	npm
 	macos
 	rsync
 	sudo
-	python
 	zsh-syntax-highlighting
 )
 
 # User configuration
+export DEFAULT_USER="daniellemaier"
+export LANG="en_US.UTF-8"
+export EDITOR=/usr/local/bin/rnano
+export VISUAL="$EDITOR"
 
 # PATH
 export PATH="/usr/local/bin:$PATH"
@@ -58,10 +58,6 @@ export GOPATH="$HOME/workspace/go"
 export GOROOT="/usr/local/opt/go/libexec"
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
-export DEFAULT_USER="daniellemaier"
-export LANG="en_US.UTF-8"
-export EDITOR=/usr/local/bin/rnano
-export VISUAL="$EDITOR"
 
 # Oh-My-ZSH
 source $ZSH/oh-my-zsh.sh
