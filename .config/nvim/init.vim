@@ -1,0 +1,1 @@
+/Users/daniellemaier/my_config/Mackup/.config/nvim/init.vim

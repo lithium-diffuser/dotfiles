@@ -1,0 +1,47 @@
+{
+	"motd": {
+		"minVersion": "3.0.5"
+	},
+	"motd.fetched": 1550201403405,
+	"activeProjects": {
+		"/Users/daniellemaier/workspace/week3/html-forms": "html-form-ex",
+		"/Users/daniellemaier/workspace/week3/galvanize-personnel": "stage",
+		"/Users/daniellemaier/workspace/week4/galvanize-guitars": "staging",
+		"/Users/daniellemaier/workspace/week5/q1project": "staging",
+		"/Users/daniellemaier/workspace/q2week6/galvanize-eats": "dm-galvanize-eats-71bf0",
+		"/Users/daniellemaier/workspace/quarter_2/week9/SMB-Client": "smb-client-49326",
+		"/Users/daniellemaier/workspace/portfolio_site": "dm-portfolio",
+		"/Users/daniellemaier/workspace/quarter_3/week13/galvanize-reads": "dm-galvanize-reads",
+		"/Users/daniellemaier/workspace/quarter_3/week14/angular-inbox": "dm-angular-inbox",
+		"/Users/daniellemaier/workspace/quarter_3/week17/Jetsetter-App": "jetsetter-e9e11"
+	},
+	"analytics-uuid": "415bb787-a6e9-4c8b-8b7f-b7c1ce6b163e",
+	"usage": true,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "110739690743281694300",
+		"email": "danielle.e.maier@gmail.com",
+		"email_verified": true,
+		"at_hash": "-96b2SUSRcBewMvIdCMpTA",
+		"iat": 1550201963,
+		"exp": 1550205563
+	},
+	"tokens": {
+		"expires_at": 1550287190762,
+		"refresh_token": "1/SxOVx_WDONhLoUkjFEZTIYIhEBZQqAwOtZaAfzInBtA",
+		"scopes": [
+			"email",
+			"https://www.googleapis.com/auth/cloud-platform",
+			"https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+			"https://www.googleapis.com/auth/firebase",
+			"openid"
+		],
+		"access_token": "ya29.GlyyBjTU7Yn9RBHHXG4OWxcI04bng6fX2Ol6gmDvy11P0XrbC4vqG95W87kVi1mxFSPd10IXh_t0-xT5xK_p6wkX5kPWb85eBI-JBV3w0v14Nm78lxpnZIIlTx0enA",
+		"expires_in": 3600,
+		"scope": "https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/firebase openid https://www.googleapis.com/auth/cloud-platform",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjdjMzA5ZTNhMWMxOTk5Y2IwNDA0YWI3MTI1ZWU0MGI3Y2RiY2FmN2QiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTEwNzM5NjkwNzQzMjgxNjk0MzAwIiwiZW1haWwiOiJkYW5pZWxsZS5lLm1haWVyQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiaFZfSGVNLVVQU3E4TEZMdWs3MDdydyIsImlhdCI6MTU1MDI4MzU5MCwiZXhwIjoxNTUwMjg3MTkwfQ.kLaiRYrz3lDnZoCEodFauhLe5bLS9vb6GWa-AILR1vGQNmM_d8MA-poz-Ryy3-LTqXsPZnVeBO3HuMRgnURMSttfvZtRJHCg8AtyjfQtWyRW42Z7DDU-lzeFEe1zlCIwjIyhNpwRtxYRcWv5jB80lKC9ZarTAzQTv89W9wYBbkSYwVkuLTDbTvIWOWIgjL4FmvCsW_JOOAG0riZAYGqPnU0sSxMPhb63JbcazMe2k5rPDlIqObVks5EDht89pSL76QG5u_zSs6lZzvfCK3Yp4Vvz1F85UsRYOmAptYsTvOo4NzgWq-wcLbPOdbpSG4m4tDzbBXrd7KyOipkdRYvtyA"
+	}
+}
