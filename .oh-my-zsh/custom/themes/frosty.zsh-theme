@@ -18,8 +18,7 @@ local magenta_bold=$fg_bold[magenta]
 local cyan_bold=$fg_bold[cyan]
 local white_bold=$fg_bold[white]
 
-local flake=""
-local pchar="☾ƒ☽"
+local pchar="ƒ☾𝑥☽"
 
 # Format for git_prompt_info()
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$blue%}☾"
@@ -48,9 +47,9 @@ ZSH_THEME_GIT_TIME_SINCE_COMMIT_NEUTRAL="%{$magenta%}"
 function get_name {
     local name="☾%m☽"
     if [[ "$USER" == 'root' ]]; then
-        name="%{$red_bold%}$flake%{$red_bold%}$name%{$red_bold%}%{$reset_color%}"
+        name="%{$red_bold%}$name%{$red_bold%}%{$reset_color%}"
     else
-        name="%{$white_bold%}$flake%{$magenta_bold%}$name%{$white_bold%}%{$reset_color%}"
+        name="%{$white_bold%}$name%{$white_bold%}%{$reset_color%}"
     fi
     echo $name
 }
@@ -137,7 +136,7 @@ function get_space {
     echo $space
 }
 
-# prompt head ❄︎☾machine name☽☾current dir☽ (branch) git status
+# prompt head  ☾machine name☽☾current dir☽ (branch) git status
 function print_prompt_head {
     local left_prompt="$(get_name)%{$cyan%}☾$(get_dir)☽\
 $(get_git_prompt)\
