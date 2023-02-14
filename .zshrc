@@ -40,6 +40,8 @@ plugins=(
 	zsh-syntax-highlighting
 )
 
+eval $(thefuck --alias)
+
 # User configuration
 export DEFAULT_USER="daniellemaier"
 export LANG="en_US.UTF-8"

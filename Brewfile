@@ -29,12 +29,16 @@ brew 'go'
 brew 'gnupg'
 brew 'iterm2'
 brew 'Rectangle'
+brew 'exa'
+brew 'nnn'
+brew 'helix'
 
 # Apps
 cask 'google-chrome'
 cask 'zoom'
 cask 'fontforge'
 cask 'git-credential-manager-core'
+cask 'alacritty'
 
 # Fonts
 cask 'font-monofur-for-powerline'

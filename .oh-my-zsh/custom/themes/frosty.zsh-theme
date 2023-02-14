@@ -159,4 +159,4 @@ add-zsh-hook precmd print_prompt_head
 setopt prompt_subst
 
 PROMPT='$(get_prompt_indicator)'
-RPROMPT="%{$blue%}☾%{$white%}$(get_time)%{$blue%}☽"
+RPROMPT="%{$blue%} ☾%{$white%}$(get_time)%{$blue%}☽"

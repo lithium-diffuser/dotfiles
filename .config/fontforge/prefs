@@ -6,7 +6,9 @@ ExportClipboard:	0
 AutoSaveFrequency:	5
 RevisionsToRetain:	0
 UndoRedoLimitToSave:	0
+SaveEditorState:	1
 WarnScriptUnsaved:	0
+UsePlugins:	1
 NewCharset:	ISO8859-1
 NewEmSize:	1000
 NewFontsQuadratic:	0
@@ -110,11 +112,11 @@ AlmostHVBound:	3
 CheckSelfIntersects:	1
 ShowDebugChanges:	1
 DefaultScreenDpiSystem:	0
-DefaultOutputFormat:	13
+DefaultOutputFormat:	15
 DefaultBitmapFormat:	10
 SaveValidate:	1
 SaveFontLogAsk:	0
-DefaultSFNTflags:	32
+DefaultSFNTflags:	4
 DefaultPSflags:	9437184
 PageWidth:	0
 PageHeight:	0
@@ -153,6 +155,10 @@ CV_B2Tool:	1
 CV_CB2Tool:	5
 XUID-Base:	1021 738 130287769
 ShowKerningPane:	1
+PluginStartupMode:	Ask
+Recent:	/Users/daniellemaier/Library/Fonts/monofur Nerd Font Complete Mono.ttf
+Recent:	/Users/daniellemaier/Library/Fonts/monofur italic Nerd Font Complete Mono.ttf
+Recent:	/Users/daniellemaier/Library/Fonts/monofur bold Nerd Font Complete Mono.ttf
 Recent:	/Users/daniellemaier/Untitled1.sfd
 Recent:	/Users/daniellemaier/NotoSansShavian-Regular.ttf
 Recent:	/Users/daniellemaier/Library/Fonts/FtAcidtestRegressive-0lWR.ttf
