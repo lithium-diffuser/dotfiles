@@ -47,16 +47,20 @@ export DEFAULT_USER="daniellemaier"
 export LANG="en_US.UTF-8"
 export EDITOR=/usr/local/bin/rnano
 export VISUAL="$EDITOR"
+export TERMINFO_DIRS=$TERMINFO_DIRS:$HOME/.local/share/terminfo
+export HISTCONTROL=ignoreboth
+export TERM=xterm-256color	
 
 # PATH
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/java/jdk1.8.0_74/bin:$PATH"
 export PATH="/usr/local/heroku/bin:$PATH"
-export SSH_KEY_PATH="~/.ssh/rsa_id"
 export PATH="/opt/local/bin:$PATH"
-export GEM_HOME="$HOME/.gems"
 export PATH="$PATH:$HOME/.rvm/bin"
 export PATH="/usr/local/opt/sqlite/bin:$PATH"
+export PATH=/users/daniellemaier/.local/bin:$PATH
+export SSH_KEY_PATH="~/.ssh/rsa_id"
+export GEM_HOME="$HOME/.gems"
 export GOPATH="$HOME/workspace/go"
 export GOROOT="/usr/local/opt/go/libexec"
 export PATH=$PATH:$GOPATH/bin

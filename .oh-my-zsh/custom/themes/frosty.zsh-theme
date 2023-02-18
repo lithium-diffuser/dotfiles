@@ -145,7 +145,7 @@ $(get_git_prompt)\
     print -rP "$left_prompt$(get_space $left_prompt $right_prompt)$right_prompt"
 }
 
-#change prompt color based on user lever
+# change prompt color based on user lever
 function get_prompt_indicator {
     if [[ $? -eq 0 ]]; then
         echo "%{$magenta_bold%}$pchar %{$reset_color%}"
@@ -159,4 +159,4 @@ add-zsh-hook precmd print_prompt_head
 setopt prompt_subst
 
 PROMPT='$(get_prompt_indicator)'
-RPROMPT="%{$blue%} ☾%{$white%}$(get_time)%{$blue%}☽"
+# RPROMPT="%{$blue%}☾%{$white%}$(get_time)%{$blue%}☽"
