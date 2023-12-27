@@ -15,7 +15,7 @@
 1. `Update macOS` to the latest version with the App Store
 2. `Clone dotfiles` to ~/.dotfiles (you will be asked to download command line tools)
     ```zsh
-    git clone https://github.com/christophrumpel/dotfiles.git ~/.dotfiles
+    git clone https://github.com/lithium-diffuser/dotfiles.git ~/.dotfiles
     ```
 3. `Run Installation` script
     ```zsh
