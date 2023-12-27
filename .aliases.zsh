@@ -38,7 +38,7 @@ alias ali='rnano ~/.dotfiles/.aliases.zsh'
 # Overwrites
 alias vi='vim'
 alias vim='vim'
-alias tmux='tmux -u'
+# alias tmux='tmux -u'
 alias pico='/usr/local/bin/rnano'
 alias nano='/usr/local/bin/rnano'
 alias nan='/usr/local/bin/rnano'

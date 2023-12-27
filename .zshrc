@@ -32,12 +32,13 @@ HIST_STAMPS="yyyy-mm-dd"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
 	brew
-	common-aliases
+	# common-aliases
 	git
 	macos
-	rsync
+	# rsync
 	sudo
 	zsh-syntax-highlighting
+	tmux
 )
 
 eval $(thefuck --alias)
@@ -52,7 +53,7 @@ export HISTCONTROL=ignoreboth
 export TERM=xterm-256color	
 
 # PATH
-export PATH="/usr/local/bin:$PATH"
+export PATH=$HOME/bin:/usr/local/bin:/opt/homebrew/bin:$PATH
 export PATH="/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/java/jdk1.8.0_74/bin:$PATH"
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="/opt/local/bin:$PATH"
@@ -65,6 +66,25 @@ export GOPATH="$HOME/workspace/go"
 export GOROOT="/usr/local/opt/go/libexec"
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
+
+# Run tmux on startup
+# ZSH_TMUX_AUTOSTART=true
+#if [ "$TMUX" = "" ]; then exec tmux; fi
+#if [[ ! $(tmux list-sessions) ]]; then 
+#  tmux
+#fi
+if [ -z "$TMUX" ]; then
+    attach_session=$(tmux 2> /dev/null ls -F \
+        '#{session_attached} #{?#{==:#{session_last_attached},},1,#{session_last_attached}} #{session_id}' |
+        awk '/^0/ { if ($2 > t) { t = $2; s = $3 } }; END { if (s) printf "%s", s }')
+
+    if [ -n "$attach_session" ]; then
+        tmux attach -t "$attach_session"
+    else
+        tmux
+    fi
+fi
+
 
 # Oh-My-ZSH
 source $ZSH/oh-my-zsh.sh
