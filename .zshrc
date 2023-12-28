@@ -37,8 +37,8 @@ plugins=(
 	macos
 	# rsync
 	sudo
-	zsh-syntax-highlighting
 	tmux
+	zsh-syntax-highlighting
 )
 
 eval $(thefuck --alias)
