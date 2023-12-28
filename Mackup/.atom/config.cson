@@ -1,0 +1,8 @@
+"*":
+  core:
+    disabledPackages: [
+      "language-gfm"
+    ]
+  editor: {}
+  "exception-reporting":
+    userId: "7982cd96-8384-4279-b175-0ad72c3db63c"

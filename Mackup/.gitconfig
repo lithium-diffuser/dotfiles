@@ -1,0 +1,63 @@
+
+[user]
+	email = dani.elise.303@gmail.com
+	name = Dani Elise
+    username = lithium-diffuser
+
+[github]
+	user = lithium-diffuser
+
+[color]
+    ui = true
+
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = red
+
+[alias]
+    co = checkout
+    cob = checkout -b
+    c = commit
+    cm = commit -m
+    cam = commit -am
+    st = status
+    br = branch
+    s = status -s
+	lg = "log --oneline --decorate --all --"
+    sq = rebase -i HEAD~2
+[push]
+	default = simple
+[branch]
+	autosetuprebase = always
+[rerere]
+	enabled = true
+	s = "status -s"
+[core]
+  repositoryformatversion = 0
+  filemode = true
+  bare = false
+  logallrefupdates = true
+  ignorecase = true
+  precomposeunicode = true
+  autocrlf = input
+	editor = vim
+[credential]
+	helper = cache
+	helper = 
+	helper = /usr/local/share/gcm-core/git-credential-manager
+[merge]
+    tool = vimdiff
+[credential "https://dev.azure.com"]
+	useHttpPath = true
